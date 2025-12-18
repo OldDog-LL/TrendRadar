@@ -65,7 +65,7 @@ class DataQueryTools:
                 limit=limit,
                 include_url=include_url
             )
-
+            print(news_list)
             return {
                 "news": news_list,
                 "total": len(news_list),

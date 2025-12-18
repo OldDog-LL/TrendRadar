@@ -77,6 +77,7 @@ class DataService:
 
                 news_item = {
                     "title": title,
+                    "url": info["url"],
                     "platform": platform_id,
                     "platform_name": platform_name,
                     "rank": rank,
